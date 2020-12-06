@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles.css">
-    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,13 +10,16 @@
         <div class="text-container">
             <p>Vanilla JavaScript Stopwatch</p>
         </div>
-        <div class="time-container">00:00</div>
+        <div class="time-container">00:00:000</div>
 
-        <button class="start-btn">Start</button>
-        <button class="stop-btn">Stop</button>
-        <button class="reset-btn">Reset</button>
-
+        <div class="btn-container">
+        <button class="toggle btn start" id="start">START</button>
+        <button class=" btn stop" id="stop">STOP</button>
+        <button class="btn reset" id="reset">RESET</button>
+        </div>
     </div>
-    
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
